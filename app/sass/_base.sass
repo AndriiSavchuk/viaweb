@@ -1,0 +1,148 @@
+//@import "reset"  /* IF we don't use Bootstrap styles, etc. */
+@import "bourbon/bourbon"
+@import "vars"
+@import "fonts"
+@import "libs"
+
+
+/* Base styles of the project */
+
+html
+    font-size: 100%
+    overflow-y: scroll
+    -webkit-text-size-adjust: 100%
+    -ms-text-size-modal-wrap: 100%
+
+body
+    position: relative
+    min-width: 320px
+    background-color: $background-color
+    font-family: $font-family-default
+    font-size: 16px
+    color: $text-color
+    line-height: $line-height-default
+    overflow-x: hidden
+
+
+/* If don't use BootStrap */
+
+//.container
+//    max-width: 1280px
+//    margin: 0 auto
+
+
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6
+    margin: 0
+    font-family: $font-family-headings
+
+/* Form inputs */
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='search'],
+input[type='url'],
+input[type='file'],
+input[type='password'],
+textarea
+    height: 40px
+    padding: 0 10px 0 40px
+    margin-bottom: 15px
+    color: $text-color
+    font-size: 14px
+    background: #fff
+    border: 2px solid $border-color
+    border-radius: 4px
+    +placeholder
+        color: #000
+        font-size: 14px
+    &.input-ic
+        display: block
+        width: 100%
+        background: no-repeat 15px center
+        &-user
+            //background-image: url()
+        &-pass
+            //background-image: url()
+        &-mail
+            //background-image: url()
+    &:focus
+        outline: none
+        box-shadow: none
+        border-color: $border-color-dark
+
+textarea
+    height: auto
+    resize: none
+    min-height: 100px
+
+
+/* Link */
+
+a
+    color: $link-color
+    text-decoration: none
+    &:hover
+        text-decoration: none
+        color: $link-color-dark
+
+
+/* Buttons */
+
+.btn, a.btn
+    cursor: pointer
+    display: inline-block
+    vertical-align: middle
+    padding: 15px
+    font-size: 14px
+    font-weight: 700
+    line-height: $line-height-default
+    text-decoration: none
+    text-transform: uppercase
+    color: $text-color
+    border: none
+    border-radius: 4px
+    &-main
+        background-color: $button-color
+        &:hover
+            background-color: darken($button-color, 7%)
+    &-second
+        background-color: $button-color
+        &:hover
+            background-color: darken($button-color, 7%)
+    &-third
+        background-color: $button-color
+        &:hover
+            background-color: darken($button-color, 7%)
+
+
+/* Icons */
+
+.ic
+    position: relative
+    display: inline-block
+    vertical-align: middle
+
+
+/* Floats */
+
+.fl
+    float: left
+.fr
+    float: right
+
+
+/* Text align*/
+
+.text-center
+    text-align: center !important
+.text-left
+    text-align: left !important
+.text-right
+    text-align: right !important
+
+/*----------------------------*/
