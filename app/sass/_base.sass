@@ -1,4 +1,3 @@
-//@import "reset"  /* IF we don't use Bootstrap styles, etc. */
 @import "bourbon/bourbon"
 @import "vars"
 @import "fonts"
@@ -16,27 +15,51 @@ html
 body
     position: relative
     min-width: 320px
-    background-color: $background-color
+    background-color: $background-color-body
     font-family: $font-family-default
     font-size: 16px
-    color: $text-color
+    color: $text-color-dark
     line-height: $line-height-default
     overflow-x: hidden
 
 
-/* If don't use BootStrap */
-
-//.container
-//    max-width: 1280px
-//    margin: 0 auto
-
-
-
 /* Headings */
 
-h1, h2, h3, h4, h5, h6
-    margin: 0
+h1
     font-family: $font-family-headings
+    font-size: 3.750em
+    line-height: 1.417
+    color: #ffffff
+
+h2
+    font-family: $font-family-headings
+    font-size: 3.125em
+    line-height: 1.6
+    color: #313131
+
+h3
+    font-family: $font-family-default
+    font-size: 1.875em
+    line-height: 2.6
+    color: #ffffff
+
+h4
+    font-family: $font-family-default
+    font-size: 1.563em
+    color: #272727
+
+h5
+    font-family: $font-family-default
+    font-size: 1.250em
+    line-height: 4
+    color: #313131
+
+h6
+    font-family: $font-family-default
+    font-size: 1.125em
+    line-height: 3.556
+    color: #272727
+
 
 /* Form inputs */
 
@@ -52,10 +75,10 @@ textarea
     height: 40px
     padding: 0 10px 0 40px
     margin-bottom: 15px
-    color: $text-color
+    color: #000
     font-size: 14px
     background: #fff
-    border: 2px solid $border-color
+    border: 2px solid #f7f7f7
     border-radius: 4px
     +placeholder
         color: #000
@@ -73,7 +96,7 @@ textarea
     &:focus
         outline: none
         box-shadow: none
-        border-color: $border-color-dark
+        border-color: darken(#f7f7f7, 20%)
 
 textarea
     height: auto
@@ -88,7 +111,7 @@ a
     text-decoration: none
     &:hover
         text-decoration: none
-        color: $link-color-dark
+        color: (darken($link-color, 20%))
 
 
 /* Buttons */
@@ -103,7 +126,7 @@ a
     line-height: $line-height-default
     text-decoration: none
     text-transform: uppercase
-    color: $text-color
+    color: #000
     border: none
     border-radius: 4px
     &-main
