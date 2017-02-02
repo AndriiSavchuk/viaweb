@@ -101,7 +101,8 @@ a
     &:hover
         text-decoration: none
         color: (darken($link-color, 20%))
-
+    &:focus
+        outline: 0
 
 /* Buttons */
 
@@ -118,6 +119,13 @@ a
     color: #000
     border: none
     border-radius: 25px
+    transition: 0.5s
+    &:hover
+        transition: 0.5s
+        outline: 0
+    &:focus
+        outline: 0
+
 
 
 /* Icons */
@@ -144,5 +152,19 @@ a
     text-align: left !important
 .text-right
     text-align: right !important
+
+/* Colored text*/
+
+.dark-orange
+    color: $orange-dark
+
+.orange-light
+    color: $orange-light
+
+.green-light
+    color: $green-light
+
+.purple
+    color: $purple
 
 /*----------------------------*/
