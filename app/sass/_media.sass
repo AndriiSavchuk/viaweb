@@ -5,29 +5,40 @@
 
 /* Large devices (desktops, less than 1200px) */
 @media only screen and (max-width : 1199px)
-	   /**/
-    #header
-        .logo
-            padding-top: 5px
-            a
-                font-family: "Wisdom", $georgia
-                font-size: 27px
-                color: $text-color-dark
-                span
-                    color: $orange-dark
 
+	   /* Header styles */
+
+    #header
         .navbar
-            padding: .9rem 1rem
             li
-                display: inline-block
-                margin-left: .625rem //
-                a
-                    font-size: 14px
+                margin-left: .625rem
+
 
 
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width : 991px)
-   /**/
+
+    /* Header styles */
+
+    #header
+        .navbar
+            margin-top: 1rem
+            float: left
+            width: 80%
+            text-align: center
+            li
+                display: block
+                margin-left: 0
+                padding: 5px 0
+
+        .navbar-toggler
+            float: right
+            font-size: 2em
+            margin: 5px 0
+            &:focus
+                outline: $orange-dark  auto 5px
+            &:hover
+                cursor: pointer
 
 
 
@@ -38,7 +49,21 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width : 575px)
-	/**/
+
+    /* Header styles */
+
+    #header
+
+        .navbar
+            padding-top: 0
+            margin-top: 0
+            width: 100%
+            text-align: center
+
+        .navbar-toggler
+            position: absolute
+            top: -50px
+            right: 10px
 
 
 /* Custom */
