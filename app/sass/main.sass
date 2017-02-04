@@ -3,7 +3,79 @@
 @import "base"
 
 
-/* Custom styles here */
+/* Header styles */
+
+#header
+
+    .logo
+        a
+            font-family: 'Lobster', cursive
+            font-size: 2.188em
+            color: $text-color-dark
+            span
+                color: $orange-dark
+
+    .navbar
+        padding: .9rem 1rem
+        float: left
+        li
+            display: inline-block
+            margin-left: 1.125rem
+            a
+                display: inline-block
+                font-size: .875em
+                transition: 0.4s
+                &:focus, &:hover
+                    color: $orange-dark
+                    text-decoration: none
+                    transition: 0.4s
+
+
+
+/* Section Home styles*/
+
+#home
+    position: relative
+    background: url("../img/home_bg_2.jpg") no-repeat center
+    -webkit-background-size: cover
+    background-size: cover
+    height: 850px
+
+    .cover
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(38, 39, 50, 0.65)
+
+        h1
+            padding-top: 10rem
+
+        .home-btn
+            margin-top: 3rem
+            margin-bottom: 5.1rem
+            .btn
+                padding: .813em 2.688em
+                background-color: $orange-dark
+                color: #ffffff
+                &:hover
+                    background-color: darken($orange-dark, 7%)
+
+        .home-block
+            p
+                margin-top: 2.3rem
+                text-transform: uppercase
+                
+
+/* Section About Us styles*/
+
+
+
+
+
+
+
 
 
 
