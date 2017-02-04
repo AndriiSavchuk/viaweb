@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13a5f74-bc2b-4032-81bf-ab64e08a770f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/fonts/Wisdom/Wisdom.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/fonts/Wisdom/Wisdom.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/fonts/Wisdom/Wisdom.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/home_bg_1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/android-icon-144x144.png" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/android-icon-192x192.png" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-192x192.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/android-icon-36x36.png" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-36x36.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/android-icon-48x48.png" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-48x48.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/android-icon-72x72.png" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-72x72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/android-icon-96x96.png" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-96x96.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-114x114.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-114x114.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-120x120.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-120x120.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-144x144.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-152x152.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-152x152.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-180x180.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-180x180.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-57x57.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-57x57.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-60x60.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-60x60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-72x72.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-72x72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-76x76.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-76x76.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon-precomposed.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/apple-icon.png" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/favicon-16x16.png" afterPath="$PROJECT_DIR$/app/img/favicon/favicon-16x16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/favicon-32x32.png" afterPath="$PROJECT_DIR$/app/img/favicon/favicon-32x32.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/favicon-96x96.png" afterPath="$PROJECT_DIR$/app/img/favicon/favicon-96x96.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/favicon.ico" afterPath="$PROJECT_DIR$/app/img/favicon/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/ms-icon-144x144.png" afterPath="$PROJECT_DIR$/app/img/favicon/ms-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/ms-icon-150x150.png" afterPath="$PROJECT_DIR$/app/img/favicon/ms-icon-150x150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/ms-icon-310x310.png" afterPath="$PROJECT_DIR$/app/img/favicon/ms-icon-310x310.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/favicon/ms-icon-70x70.png" afterPath="$PROJECT_DIR$/app/img/favicon/ms-icon-70x70.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/home_bg.jpg" afterPath="$PROJECT_DIR$/app/img/home_bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_fonts.sass" afterPath="$PROJECT_DIR$/app/sass/_fonts.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,14 +22,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6382661">
+    <splitter split-orientation="horizontal" split-proportion="0.5493274">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+                <state relative-caret-position="-853">
+                  <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -72,8 +42,8 @@
           <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                <state relative-caret-position="180">
+                  <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -82,8 +52,8 @@
           <file leaf-file-name="_media.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="680">
-                  <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+                <state relative-caret-position="1020">
+                  <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -133,10 +103,10 @@
         <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/sass/_base.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/sass/_fonts.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
   </component>
@@ -256,16 +226,17 @@
       <workItem from="1486045104568" duration="7050000" />
       <workItem from="1486114490087" duration="3292000" />
       <workItem from="1486119415241" duration="2278000" />
-      <workItem from="1486122910280" duration="1025000" />
+      <workItem from="1486122910280" duration="2288000" />
+      <workItem from="1486220256160" duration="1430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37164000" />
+    <option name="totallyTimeSpent" value="39857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13303438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -274,7 +245,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42089093" sideWeight="0.49757868" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42089093" sideWeight="0.49757868" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -298,6 +269,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1660">
@@ -649,14 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_fonts.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -673,18 +652,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="-853">
+          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        <state relative-caret-position="1020">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding />
         </state>
       </provider>
