@@ -14,7 +14,7 @@ html
 body
     position: relative
     min-width: 320px
-    background-color: $background-color-body
+    background-color: $bg-color-body
     font-family: $font-family-default
     font-size: 15px
     color: $text-color-dark
@@ -26,37 +26,37 @@ body
 
 h1
     font-family: $font-family-headings
-    font-size: 4em
-    line-height: 1.417
+    font-size: 60px
+    line-height: 85px
     color: #ffffff
 
 h2
     font-family: $font-family-headings
-    font-size: 3.333em
-    line-height: 1.6
+    font-size: 50px
+    line-height: 80px
     color: #313131
 
 h3
     font-family: $font-family-default
-    font-size: 2em
-    line-height: 2.6
+    font-size: 30px
+    line-height: 80px
     color: #ffffff
 
 h4
     font-family: $font-family-default
-    font-size: 1.667em
+    font-size: 25px
     color: #272727
 
 h5
     font-family: $font-family-default
-    font-size: 1.333em
-    line-height: 4
+    font-size: 20px
+    line-height: 80px
     color: #313131
 
 h6
     font-family: $font-family-default
-    font-size: 1.2em
-    line-height: 3.556
+    font-size: 18px
+    line-height: 26px
     color: #272727
 
 
@@ -110,8 +110,8 @@ a
     cursor: pointer
     display: inline-block
     vertical-align: middle
-    padding: 0.8em 2.688em
-    font-size: 1.067em
+    padding: 13px 43px
+    font-size: 16px
     font-weight: 600
     line-height: $line-height-default
     text-decoration: none
@@ -153,6 +153,16 @@ a
 .text-right
     text-align: right !important
 
+
+/* Background color */
+
+.bg-white
+    background-color: $bg-color-body
+
+.bg-grey
+    background-color: $bg-color-section
+
+
 /* Colored text*/
 
 .dark-orange
@@ -166,6 +176,13 @@ a
 
 .purple
     color: $purple
+
+
+/* Description */
+
+.description
+    color: $text-color-dark
+    font-size: 15px
 
 
 /* Row positions */
@@ -185,11 +202,33 @@ a
     position: absolute
     top: 0
     line-height: 0.9
-    font-size: 12.867em
+    font-size: 193px
     opacity: 0.3
     color: #e0e0e0
     font-weight: bold
-    text-transform: uppercase
+
+
+/* Underheading text*/
+
+.underheading-text
+    color: $text-color-dark
+    font-size: 18px
+
+
+/* Border lines */
+
+.dk-orange_border-bot
+    border-bottom: 3px solid $orange-dark
+
+
+.lt-orange_border-bot
+    border-bottom: 3px solid $orange-light
+
+.lt-green_border-bot
+    border-bottom: 3px solid $green-light
+
+.purple_border-bot
+    border-bottom: 3px solid $purple
 
 
 
