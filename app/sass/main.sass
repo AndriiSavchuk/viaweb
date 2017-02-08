@@ -153,9 +153,146 @@
 /* Section Portfolio styles */
 
 #portfolio
-
-    height: 800px
     background-color: $bg-color-body
+    padding: 0 0 130px
+    p
+        .numeration
+            position: relative
+            top: 5px
+
+    .container
+        .row.relative
+            top: -100px
+
+    /*-- Hover effect on Portfolio items --*/
+
+    .view
+        max-width: 100%
+        height: 100%
+        margin: 10px
+        float: left
+        overflow: hidden
+        position: relative
+        text-align: center
+        box-shadow: 1px 1px 10px #e6e6e6
+        cursor: default
+        //background: #fff url(../img/portfolio-item2.jpg) no-repeat center center
+
+    .view .mask,
+    .view .content
+        max-width: 100%
+        height: 100%
+        position: absolute
+        overflow: hidden
+        top: 0
+        left: 0
+
+    .view
+        img
+            max-width: 100%
+            display: block
+            position: relative
+
+    .view
+        h4
+            text-transform: uppercase
+            color: #fff
+            text-align: center
+            position: relative
+            line-height: $line-height-default
+            padding: 10px
+            background: rgba(0, 0, 0, 0.8)
+            margin: 20px 0 0 0
+
+    .view
+        p
+            font-family: "Poppins", sans-serif
+            font-style: italic
+            font-size: 12px
+            position: relative
+            color: #fff
+            padding: 30px 5px 0
+            text-align: center
+
+    .view
+        a.info
+            display: inline-block
+            text-decoration: none
+            padding: 10px 22px
+            line-height: $line-height-default
+            background: $orange-dark
+            color: #fff
+            text-transform: uppercase
+            box-shadow: 0 0 1px #000
+            -webkit-border-radius: 25px
+            -moz-border-radius: 25px
+            border-radius: 25px
+
+    .view
+        a.info:hover
+            box-shadow: 0 0 5px #000
+
+
+    /*--------------------------------------*/
+
+
+    .view-first
+        img
+            transition: all 0.2s linear
+
+    .view-first
+        .mask
+            opacity: 0
+            background-color: rgba(38, 39, 50, 0.65)
+            transition: all 0.4s ease-in-out
+
+    .view-first
+        h2
+            transform: translateY(-100px)
+            opacity: 0
+            transition: all 0.2s ease-in-out
+
+    .view-first
+        p
+            transform: translateY(100px)
+            opacity: 0
+            transition: all 0.2s linear
+
+    .view-first
+        a.info
+            opacity: 0
+            transition: all 0.2s ease-in-out
+
+
+    /*--------------------------------------*/
+
+
+    .view-first:hover
+        img
+            transform: scale(1.1)
+
+    .view-first:hover
+        .mask
+            border: 10px solid #fff
+            opacity: 1
+
+    .view-first:hover h2,
+    .view-first:hover p,
+    .view-first:hover a.info
+        opacity: 1
+        transform: translateY(0px)
+
+    .view-first:hover
+        p
+            transition-delay: 0.1s
+
+    .view-first:hover
+        a.info
+            transition-delay: 0.3s
+
+    /*-- End of hover effect on Portfolio items --*/
+
+
 
 
 
