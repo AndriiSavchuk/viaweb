@@ -178,7 +178,6 @@
         text-align: center
         box-shadow: 1px 1px 10px #e6e6e6
         cursor: default
-        //background: #fff url(../img/portfolio-item2.jpg) no-repeat center center
 
     .view .mask,
     .view .content
@@ -295,10 +294,60 @@
     /*-- End of hover effect on Portfolio items --*/
 
 
+/* Section Team styles */
+
+#team
+    padding: 0 0 130px 0
+    p
+        .numeration
+            position: relative
+            top: 5px
+
+    .container
+        .row.relative
+            top: -100px
+
+    .person
+        h6
+            margin-top: 20px
 
 
+    .person-about
+        margin-top: 50px
+        padding: 75px 0
+        &:before
+            content: ""
+            position: absolute
+            bottom: 83%
+            left: 8%
+            border-width: 50px
+            border-style: solid
+            border-color: transparent transparent white transparent
 
+        h5
+            font-weight: 500
+            line-height: $line-height-default
 
+        p
+            font-size: 15px
+
+        .person-network
+            display: inline-block
+            float: left
+            padding-top: 85px
+
+        .person-socials
+            display: inline-block
+            list-style: none
+            margin-top: 47px
+            margin-left: 25px
+            border-left: 1px solid #eee
+            padding-top: 10px
+            padding-left: 25px
+            li
+                margin-bottom: 7px
+                img
+                    margin-right: 5px
 
 /* Always at the end */
 
