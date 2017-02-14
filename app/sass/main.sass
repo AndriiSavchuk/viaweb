@@ -219,7 +219,7 @@
         a.info
             display: inline-block
             text-decoration: none
-            padding: 10px 22px
+            padding: 7px 22px
             line-height: $line-height-default
             background: $orange-dark
             color: #fff
@@ -308,21 +308,30 @@
             top: -100px
 
     .person
+        cursor: pointer
+        margin-top: 20px
         h6
             margin-top: 20px
 
-
-    .person-about
-        margin-top: 50px
-        padding: 75px 0
-        &:before
+    .person.current
+        &:after
             content: ""
             position: absolute
-            bottom: 83%
-            left: 8%
+            bottom: -18%
+            left: 33%
             border-width: 50px
             border-style: solid
             border-color: transparent transparent white transparent
+
+
+    .person-about
+        position: relative
+        display: none
+
+    .person-about.current
+        display: inherit
+        margin-top: 50px
+        padding: 75px 0
 
         h5
             font-weight: 500
@@ -348,6 +357,13 @@
                 margin-bottom: 7px
                 img
                     margin-right: 5px
+
+
+
+
+
+
+
 
 /* Always at the end */
 
