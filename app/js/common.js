@@ -24,5 +24,11 @@ $(document).ready(function() {
         $('#'+tab_id).addClass('current');
     });
 
+    /* CounterUp */
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
 
 });
