@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13a5f74-bc2b-4032-81bf-ab64e08a770f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/indicators.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_base.sass" afterPath="$PROJECT_DIR$/app/sass/_base.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,14 +26,14 @@
     <favorites_list name="viaweb" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46489105">
+    <splitter split-orientation="horizontal" split-proportion="0.6253027">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="519" column="47" lean-forward="false" selection-start-line="519" selection-start-column="47" selection-end-line="519" selection-end-column="47" />
+                <state relative-caret-position="627">
+                  <caret line="544" column="59" lean-forward="true" selection-start-line="544" selection-start-column="59" selection-end-line="544" selection-end-column="59" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -61,8 +60,8 @@
           <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-153">
-                  <caret line="297" column="5" lean-forward="false" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
+                <state relative-caret-position="349">
+                  <caret line="388" column="27" lean-forward="false" selection-start-line="388" selection-start-column="27" selection-end-line="388" selection-end-column="27" />
                   <folding>
                     <element signature="e#87#678#0" expanded="false" />
                     <element signature="e#714#1454#0" expanded="false" />
@@ -74,7 +73,7 @@
                     <element signature="e#6496#6713#0" expanded="false" />
                     <element signature="e#6729#6770#0" expanded="false" />
                     <element signature="e#6793#7366#0" expanded="false" />
-                    <element signature="e#8084#8249#0" expanded="false" />
+                    <element signature="e#8375#8540#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -93,8 +92,8 @@
           <file leaf-file-name="_base.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_base.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2047">
-                  <caret line="242" column="9" lean-forward="false" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
+                <state relative-caret-position="-1613">
+                  <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -149,11 +148,11 @@
         <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/css/hover.css" />
-        <option value="$PROJECT_DIR$/app/sass/_base.sass" />
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/sass/_base.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
       </list>
     </option>
   </component>
@@ -384,12 +383,12 @@
       <workItem from="1487076191736" duration="213000" />
       <workItem from="1487078783999" duration="46000" />
       <workItem from="1487089703057" duration="8404000" />
-      <workItem from="1487148674920" duration="1096000" />
+      <workItem from="1487148674920" duration="2736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110694000" />
+    <option name="totallyTimeSpent" value="112334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
@@ -502,7 +501,7 @@
             <element signature="e#6496#6713#0" expanded="false" />
             <element signature="e#6729#6770#0" expanded="false" />
             <element signature="e#6793#7366#0" expanded="false" />
-            <element signature="e#8084#8249#0" expanded="false" />
+            <element signature="e#8375#8540#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -575,7 +574,7 @@
             <element signature="e#6496#6713#0" expanded="false" />
             <element signature="e#6729#6770#0" expanded="false" />
             <element signature="e#6793#7366#0" expanded="false" />
-            <element signature="e#8084#8249#0" expanded="false" />
+            <element signature="e#8375#8540#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +655,7 @@
             <element signature="e#6496#6713#0" expanded="false" />
             <element signature="e#6729#6770#0" expanded="false" />
             <element signature="e#6793#7366#0" expanded="false" />
-            <element signature="e#8084#8249#0" expanded="false" />
+            <element signature="e#8375#8540#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,10 +912,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="519" column="47" lean-forward="false" selection-start-line="519" selection-start-column="47" selection-end-line="519" selection-end-column="47" />
+        <state relative-caret-position="627">
+          <caret line="544" column="59" lean-forward="true" selection-start-line="544" selection-start-column="59" selection-end-line="544" selection-end-column="59" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -937,24 +944,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_base.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2047">
-          <caret line="242" column="9" lean-forward="false" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="-1613">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="297" column="5" lean-forward="false" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
+        <state relative-caret-position="349">
+          <caret line="388" column="27" lean-forward="false" selection-start-line="388" selection-start-column="27" selection-end-line="388" selection-end-column="27" />
           <folding>
             <element signature="e#87#678#0" expanded="false" />
             <element signature="e#714#1454#0" expanded="false" />
@@ -966,7 +965,7 @@
             <element signature="e#6496#6713#0" expanded="false" />
             <element signature="e#6729#6770#0" expanded="false" />
             <element signature="e#6793#7366#0" expanded="false" />
-            <element signature="e#8084#8249#0" expanded="false" />
+            <element signature="e#8375#8540#0" expanded="false" />
           </folding>
         </state>
       </provider>
