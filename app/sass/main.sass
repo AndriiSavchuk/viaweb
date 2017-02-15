@@ -6,7 +6,6 @@
 /* Header styles */
 
 #header
-
     .logo
         padding-top: 15px
         a
@@ -212,7 +211,7 @@
             font-size: 12px
             position: relative
             color: #fff
-            padding: 20px 5px 0
+            padding: 10px 5px 0
             text-align: center
 
     .view
@@ -307,63 +306,105 @@
         .row.relative
             top: -100px
 
-    .person
-        cursor: pointer
+.person
+    cursor: pointer
+    background-color: #fff
+    margin-top: 20px
+    img
+        border: 5px solid #ffffff
+    h6
         margin-top: 20px
-        h6
-            margin-top: 20px
 
-    .person.current
-        &:after
-            content: ""
-            position: absolute
-            bottom: -18%
-            left: 33%
-            border-width: 50px
-            border-style: solid
-            border-color: transparent transparent white transparent
+.person.current
+    &:after
+        content: ""
+        position: absolute
+        bottom: -18%
+        left: 33%
+        border-width: 50px
+        border-style: solid
+        border-color: transparent transparent white transparent
 
 
-    .person-about
-        position: relative
-        display: none
+.person-about
+    position: relative
+    display: none
 
-    .person-about.current
-        display: inherit
-        margin-top: 50px
-        padding: 75px 0
+.person-about.current
+    display: inherit
+    margin-top: 50px
+    padding: 75px 0
 
-        h5
-            font-weight: 500
-            line-height: $line-height-default
+    h5
+        font-weight: 500
+        line-height: $line-height-default
 
+    p
+        font-size: 15px
+
+    .person-network
+        display: inline-block
+        float: left
+        padding-top: 85px
+
+    .person-socials
+        display: inline-block
+        list-style: none
+        margin-top: 47px
+        margin-left: 25px
+        border-left: 1px solid #eee
+        padding-top: 10px
+        padding-left: 25px
+        li
+            margin-bottom: 7px
+            img
+                margin-right: 5px
+
+
+
+
+/* Section Results styles */
+
+#results
+    position: relative
+    height: 500px
+    background: url("../img/parallax_bg_2.jpg") center repeat fixed
+    -webkit-background-size: cover
+    background-size: cover
+
+    .cover
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(38, 39, 50, 0.65)
+        h3
+            margin-top: 130px
         p
-            font-size: 15px
+            margin-top: 30px
+            color: $text-color-light
 
-        .person-network
+    .result-block
+        .indicator
             display: inline-block
-            float: left
-            padding-top: 85px
-
-        .person-socials
-            display: inline-block
-            list-style: none
-            margin-top: 47px
-            margin-left: 25px
-            border-left: 1px solid #eee
-            padding-top: 10px
-            padding-left: 25px
-            li
-                margin-bottom: 7px
-                img
-                    margin-right: 5px
+            width: 15px
+            height: 16px
+            background: url("../img/icons/indicators.png") no-repeat
 
 
+/* Section Steps styles */
 
+#steps
+    padding: 0 0 130px 0
+    p
+        .numeration
+            position: relative
+            top: 5px
 
-
-
-
+    .container
+        .row.relative
+            top: -100px
 
 /* Always at the end */
 

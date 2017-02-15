@@ -17,11 +17,11 @@ $(document).ready(function() {
     $('.person').click(function () {
         var tab_id = $(this).attr('data-tab');
 
-        $('.person').removeClass('.current');
-        $('.person-about').removeClass('.current');
+        $('.person').removeClass('current');
+        $('.person-about').removeClass('current');
 
-        $(this).addClass('.current');
-        $('#'+tab_id).addClass('.current');
+        $(this).addClass('current');
+        $('#'+tab_id).addClass('current');
     });
 
 
