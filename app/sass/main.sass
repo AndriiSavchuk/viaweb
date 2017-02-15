@@ -4,7 +4,6 @@
 
 
 /* Header styles */
-
 #header
     .logo
         padding-top: 15px
@@ -30,9 +29,7 @@
                     transition: 0.4s
 
 
-
 /* Section Home styles */
-
 #home
     position: relative
     background: url("../img/home_bg.jpg") center repeat fixed
@@ -66,9 +63,7 @@
                 text-transform: uppercase
 
 
-
 /* Section About Us styles */
-
 #about
     height: 950px
     padding: 150px 15px
@@ -105,9 +100,7 @@
             height: 3px
 
 
-
 /* Section Focus styles */
-
 #focus
     padding: 0 0 130px 0
     p
@@ -126,9 +119,7 @@
             height: 45px
 
 
-
 /* Section Awesomeness styles */
-
 #awesomeness
     position: relative
     height: 500px
@@ -150,9 +141,7 @@
             color: $text-color-light
 
 
-
 /* Section Portfolio styles */
-
 #portfolio
     background-color: $bg-color-body
     padding: 0 0 130px
@@ -232,9 +221,7 @@
         a.info:hover
             box-shadow: 0 0 5px #000
 
-
     /*--------------------------------------*/
-
 
     .view-first
         img
@@ -263,9 +250,7 @@
             opacity: 0
             transition: all 0.2s ease-in-out
 
-
     /*--------------------------------------*/
-
 
     .view-first:hover
         img
@@ -290,11 +275,8 @@
         a.info
             transition-delay: 0.3s
 
-    /*-- End of hover effect on Portfolio items --*/
-
 
 /* Section Team styles */
-
 #team
     padding: 0 0 130px 0
     p
@@ -310,6 +292,7 @@
     cursor: pointer
     background-color: #fff
     margin-top: 20px
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05)
     img
         border: 5px solid #ffffff
     h6
@@ -324,7 +307,7 @@
         border-width: 50px
         border-style: solid
         border-color: transparent transparent white transparent
-
+        z-index: 1
 
 .person-about
     position: relative
@@ -334,6 +317,7 @@
     display: inherit
     margin-top: 50px
     padding: 75px 0
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05)
 
     h5
         font-weight: 500
@@ -361,10 +345,7 @@
                 margin-right: 5px
 
 
-
-
 /* Section Results styles */
-
 #results
     position: relative
     height: 500px
@@ -410,8 +391,8 @@
         width: 15px
         background-position: -45px 0
 
-/* Section Steps styles */
 
+/* Section Steps styles */
 #steps
     padding: 0 0 130px 0
     p
@@ -422,6 +403,44 @@
     .container
         .row.relative
             top: -100px
+            
+    .steps-descr
+        position: absolute
+        top: -60px
+        left: 0
+        .step-descr-block
+            position: relative
+            padding: 70px 58px 42px 110px
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05)
+            span
+                position: absolute
+                top: 30px
+                left: 40px
+                font-family: "Libre Baskerville", $georgia
+                font-size: 50px
+                color: #e0e0e0
+                &:after
+                    position: absolute
+                    top: 45px
+                    left: 5px
+                    content: ''
+                    width: 84px
+                    height: 1px
+                    background-color: #e0e0e0
+                    display: inline-block
+                    -ms-transform: rotate(-45deg)
+                    -webkit-transform: rotate(-45deg)
+                    transform: rotate(-45deg)
+                h4
+                    margin-bottom: 15px
+                p
+                    margin-bottom: 0
+
+
+
+
+
+
 
 /* Always at the end */
 
