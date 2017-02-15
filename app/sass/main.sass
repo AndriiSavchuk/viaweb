@@ -316,7 +316,7 @@
 .person-about.current
     display: inherit
     margin-top: 50px
-    padding: 75px 0
+    padding: 75px 0 75px 75px
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05)
 
     h5
@@ -363,6 +363,8 @@
 
     .result-block
         padding-top: 140px
+        img
+            height: 48px
         span
             display: inline-block
             color: $text-color-light
@@ -403,12 +405,15 @@
     .container
         .row.relative
             top: -100px
-            
+
+    img
+        width: 100%
+
     .steps-descr
         position: absolute
         top: -60px
         left: 0
-        .step-descr-block
+        .steps-descr-block
             position: relative
             padding: 70px 58px 42px 110px
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.05)
