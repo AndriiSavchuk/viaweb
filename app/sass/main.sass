@@ -376,22 +376,23 @@
     .ic-orange
         height: 16px
         width: 15px
-        background-position: 0 0
+        background: url("../img/icons/sprite.png") 0 0
+
 
     .ic-green
         height: 16px
         width: 15px
-        background-position: -15px 0
+        background: url("../img/icons/sprite.png") -15px 0
 
     .ic-purple
         height: 16px
         width: 15px
-        background-position: -30px 0
+        background: url("../img/icons/sprite.png") -30px 0
 
     .ic-light_orange
         height: 16px
         width: 15px
-        background-position: -45px 0
+        background: url("../img/icons/sprite.png") -45px 0
 
 
 /* Section Steps styles */
@@ -442,9 +443,89 @@
                     margin-bottom: 0
 
 
+/* Section Pricing styles */
+#pricing
+    padding: 0 0 130px 0
+    p
+        .numeration
+            position: relative
+            top: 5px
 
+    .container
+        .row.relative
+            top: -100px
 
+    .pricing-block
+        padding: 35px 0
+        background-color: #fff
+        h5
+            margin-bottom: 0
+        .price
+            display: inline-block
+            color: #ffffff
+            margin-bottom: 45px
+            padding: 24px 13px 25px 13px
+            border-radius: 50%
+            box-shadow: 0 0 0 2px #fff inset
+            span
+                font-size: 25px
+            p
+                font-size: 13px
+                line-height: 1.2
+                margin-bottom: 0
+        p
+            margin-bottom: 12px
 
+        p > span
+            font-size: 15px
+            color: #272727
+            font-weight: bold
+
+        p > .ic-checked
+            height: 11px
+            width: 11px
+            margin-right: 10px
+            background: url("../img/icons/checked.png") no-repeat 0 0
+
+        .btn
+            margin-top: 20px
+            background-color: #ffffff
+
+        .price-green
+            background: $green-light
+            border: 2px solid  $green-light
+
+        .price-orange
+            background: $orange-dark
+            border: 2px solid $orange-dark
+
+        .price-purple
+            background: $purple
+            border: 2px solid $purple
+
+        .btn-starter
+            padding: 11px 43px
+            color: $green-light
+            background-color: #ffffff
+            border: 2px solid $green-light
+            &:hover
+                color: #ffffff
+                background-color: lighten($green-light, 5%)
+
+        .btn-ultimate
+            background-color: $orange-dark
+            color: #ffffff
+            &:hover
+                background-color: darken($orange-dark, 7%)
+
+        .btn-pro
+            padding: 11px 43px
+            color: $purple
+            background-color: #ffffff
+            border: 2px solid $purple
+            &:hover
+                color: #ffffff
+                background-color: lighten($purple, 5%)
 
 
 /* Always at the end */

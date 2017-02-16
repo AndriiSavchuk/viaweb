@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $(window).scroll(function () {
 
-        if ($(window).scrollTop() > 80) {
+        if ($(window).scrollTop() > 20) {
             $('#header').addClass('header-fixed');
         } else {
             $('#header').removeClass('header-fixed');
@@ -24,7 +24,9 @@ $(document).ready(function() {
         $('#'+tab_id).addClass('current');
     });
 
+
     /* CounterUp */
+
     $('.counter').counterUp({
         delay: 10,
         time: 1000
