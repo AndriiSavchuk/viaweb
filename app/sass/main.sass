@@ -406,7 +406,7 @@
 
     .container
         .row.relative
-            top: -100px
+            top: -85px
 
     img
         width: 100%
@@ -560,7 +560,7 @@
 
     .container
         .row.relative
-            top: -100px
+            top: -85px
 
     .carousel-item
         .testimonial-img
@@ -601,6 +601,136 @@
                 border: 1px solid $orange-dark
                 background-color: $orange-dark
                 box-shadow: 0 0 0 2px #3f4049 inset
+
+
+
+/* Section Why Us styles */
+#why-us
+    padding: 0 0 130px 0
+    p
+        margin-bottom: 0
+        .numeration
+            position: relative
+            top: 5px
+
+    .container
+        .row.relative
+            top: -85px
+
+    .why-us_block
+        margin-bottom: 75px
+        img
+            display: inline-block
+
+        h6
+            display: inline-block
+            vertical-align: middle
+            margin-left: 15px
+        p
+            margin-top: 35px
+
+    .journey
+        margin-top: 75px
+        h4
+            display: inline-block
+            vertical-align: sub
+            margin-right: 25px
+
+        .btn
+            background-color: $orange-dark
+            color: #ffffff
+            &:hover
+                background-color: darken($orange-dark, 7%)
+
+
+/* Section Blog styles */
+#blog
+    padding: 0 0 130px 0
+    p
+        .numeration
+            position: relative
+            top: 5px
+
+    .container
+        .row.relative
+            top: -100px
+
+
+    .blog-block
+        .blog-img
+            position: relative
+            .blog-author
+                position: absolute
+                left: 8%
+                bottom: 7%
+                span
+                    text-transform: uppercase
+                time
+                    color: #ffffff
+                    font-size: 13px
+
+        .blog-content
+            padding: 30px 50px 50px
+            h5
+                margin-bottom: 20px
+                line-height: $line-height-default
+            p
+                margin-bottom: 0
+
+    .blogs-block
+        padding: 30px 35px
+        margin-bottom: 20px
+
+        .blog-author
+            span
+                text-transform: uppercase
+            time
+                font-size: 13px
+
+        .blog-content
+            h5
+                margin: 10px 0
+                line-height: $line-height-default
+            p
+                margin-bottom: 0
+
+
+/* Section Subscribe styles */
+#subscribe
+    padding: 145px 5px
+    h3
+        color: #272727
+
+    input[type="email"]
+        padding-right: 45px
+        background-color: #f7f7f7
+        border: 2px solid #efefef
+        border-top-left-radius: 25px
+        border-bottom-left-radius: 25px
+        outline: none
+
+    input[type="submit"]
+        margin-left: -5px
+        background-color: $orange-dark
+        color: #ffffff
+        padding: 14px 43px 13px
+        line-height: 1.4
+        border-top-left-radius: 0
+        border-bottom-left-radius: 0
+        &:hover
+            background-color: darken($orange-dark, 7%)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Always at the end */
