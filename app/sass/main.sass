@@ -78,7 +78,7 @@
             left: 0
             width: 100%
             height: 100%
-            border: 0.667em solid rgba(0, 0, 0, 0.2)
+            border: 10px solid rgba(0, 0, 0, 0.2)
             background: linear-gradient(to top, rgba(252, 95, 69, 0.29) 0%, rgba(0, 0, 0, 0) 100%)
 
     .about-content
@@ -399,6 +399,7 @@
 #steps
     padding: 0 0 130px 0
     p
+        margin-bottom: 0
         .numeration
             position: relative
             top: 5px
@@ -531,7 +532,7 @@
 /* Section Testimonials styles */
 #testimonials
     position: relative
-    height: 800px
+    height: 880px
     background: url("../img/testimonials_bg.jpg") center repeat fixed
     -webkit-background-size: cover
     background-size: cover
@@ -549,6 +550,7 @@
 
     p
         color: #ffffff
+        margin-bottom: 0
 
         .numeration
             position: relative
@@ -560,7 +562,45 @@
         .row.relative
             top: -100px
 
+    .carousel-item
+        .testimonial-img
+            position: relative
+            width: 35%
+            max-width: 100%
+            float: left
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05)
 
+        .testimonial-block
+            float: right
+            width: 65%
+            max-width: 100%
+            padding-top: 30px
+            .testimonial-content
+                padding: 40px 75px
+
+                p
+                    color: $text-color-dark
+
+                .signature
+                    color: #272727
+                    font-family: "Sacramento Regular", $helvetica
+                    font-size: 40px
+
+                .position
+                    color: $orange-dark
+                    font-size: 13px
+
+    .carousel-indicators
+        bottom: -20px
+        left: 96%
+        li
+            width: 16px
+            height: 16px
+
+            &.active
+                border: 1px solid $orange-dark
+                background-color: $orange-dark
+                box-shadow: 0 0 0 2px #3f4049 inset
 
 
 /* Always at the end */
