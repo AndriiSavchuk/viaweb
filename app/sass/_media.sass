@@ -58,6 +58,20 @@
             bottom: -45px
             left: 95%
 
+    /* Footer styles */
+    #footer
+        .form
+            input.input
+                padding: 0 40px
+
+        .footer-content
+            &_block
+                height: 225px
+                width: 25%
+                padding: 40px 20px
+
+
+
 
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width : 991px)
@@ -132,11 +146,29 @@
                     top: -15px
                     left: 5px
 
+
     /* Section Testimonials styles */
     #testimonials
         .carousel-indicators
             bottom: -45px
             left: 94%
+
+    /* Footer styles */
+    #footer
+        .form
+            input.input
+                padding: 0 60px
+
+        .footer-content
+            &_block
+                &:first-child
+                    padding: 50px
+
+        .footer-social
+            li
+                margin-right: 5px
+                img
+                    width: 20px
 
 
 
@@ -232,7 +264,25 @@
         .blog-block
             margin-bottom: 25px
 
+    /* Footer styles */
+    #footer
+        .form
+            input.input
+                padding: 0 20px
 
+        .footer-content
+            &_block
+                &:first-child
+                    padding: 50px 20px 0
+
+                address
+                    font-size: 12px
+
+            .footer-social
+                li
+                    display: block
+                    margin-bottom: 5px
+                    text-align: center
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width : 575px)
@@ -300,27 +350,35 @@
     #blog
         padding: 0 0 60px 0
 
-
     /* Section Subscribe styles */
     #subscribe
         padding: 70px 5px
         input[type="email"]
-            padding-right: 15px
-            background-color: #f7f7f7
-            border: 2px solid #efefef
-            border-top-left-radius: 25px
-            border-bottom-left-radius: 25px
-            outline: none
+            padding-right: 3px
+            text-align: left
+            margin-bottom: 20px
 
         input[type="submit"]
-            margin-left: -5px
-            background-color: $orange-dark
-            color: #ffffff
             padding: 14px 30px 13px
             line-height: 1.4
-            border-top-left-radius: 0
-            border-bottom-left-radius: 0
 
+
+    /* Footer styles */
+    #footer
+        .form
+            .form-group
+                display: inline-block
+                input.input
+                    padding: 0 50px
+                textarea
+                    width: 400px
+                    max-width: 100%
+
+        .footer-content
+            &_block
+                height: 240px
+                &:first-child
+                    font-size: 25px
 
 
 /* Custom */
@@ -375,6 +433,23 @@
         input[type="submit"]
             border-radius: 25px
 
+    /* Footer styles */
+    #footer
+        .form
+            .form-group
+                textarea
+                    width: 370px
+                    max-width: 100%
+
+        .footer-content
+            margin-top: 60px
+            background-color: #3f4049
+            &_block
+                height: 225px
+                width: 25%
+                padding: 40px 20px
+                float: left
+
 
 @media only screen and (max-width : 400px)
 
@@ -411,5 +486,16 @@
             bottom: -45px
             left: 86%
 
+    /* Footer styles */
+    #footer
+        .form
+            .form-group
+                textarea
+                    width: 300px
+                    max-width: 100%
+
+        .footer-content
+            &_block
+                height: 250px
 
 

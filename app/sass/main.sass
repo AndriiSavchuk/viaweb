@@ -727,7 +727,7 @@
     background: url("../img/footer_bg.jpg") center repeat fixed
     -webkit-background-size: cover
     background-size: cover
-    height: 850px
+    height: 1280px
 
     .cover
         position: absolute
@@ -762,6 +762,37 @@
             color: #ffffff
             &:hover
                 background-color: darken($orange-dark, 7%)
+
+    .footer-content
+        margin-top: 140px
+        background-color: #3f4049
+        &_block
+            height: 225px
+            width: 25%
+            padding: 60px 40px
+            float: left
+
+            &:first-child
+                display: inline-block
+                padding: 80px
+                font-family: 'Lobster', cursive
+                font-size: 34px
+                a
+                    color: #ffffff
+                span
+                    color: $orange-dark
+
+            address
+                margin-top: 20px
+                color: #fef4f2
+
+            .footer-social
+                padding: 0
+                list-style: none
+                margin-top: 20px
+                li
+                    display: inline-block
+                    margin-right: 10px
 
 
 /* Always at the end */
