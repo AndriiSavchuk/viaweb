@@ -22,7 +22,8 @@ gulp.task('scripts', function () {
         'app/libs/bootstrap/dist/bootstrap.min.js',
         'app/libs/waypoints/dist/jquery.waypoints.min.js',
         'app/libs/jquery.counterup/dist/jquery.counterup.js',
-        'app/js/common.js', // Всегда в конце
+        'app/libs/parallax/dist/parallax.min.js',
+        'app/js/common.js' // Всегда в конце
     ])
         .pipe(concat('scripts.min.js'))
         .pipe(uglify())
